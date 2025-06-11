@@ -1,6 +1,26 @@
-<h1>Estrutura de Dados e Algoritmos</h1>
-<h4>Repositório criado para a disciplina de Estrutura de Dados e Algoritmos do curso de Ciência da Computação.</h4>
+Erik Alves Almeida - 124110951
 
-## 
+# Roteiro aula
 
-Este repositório será usado para administrar minhas atividades na disciplina e acompanhar minha evolução ao longo dela.
+* Discutir sobre experimentação
+  * entrada -> execução -> perfilamento -> saída -> análise
+  * Como gerar entrada? Que entradas são importantantes para nosso problema?
+  * Como perfilar?
+  * Como formatar a saída para análise?
+  
+
+# template-intro-analise
+
+Executando seu programa passando o conteúdo de um arquivo pela entrada padrão:
+    
+    java MeuPrograma < arquivo.txt
+
+Redirecionando a saída de um programa java para um arquivo:
+    
+    java MeuPrograma > saida.txt
+
+Executando o script de plot (a saída vai ser gerada no mesmo diretório). Depois do arquivo .R,
+você deve passar a flag --vanilla e o caminho para a saída do seu programa deve ser o ultimo argumento, como no exemplo:
+    
+
+    R < caminho/p/plot.R --vanilla caminho/p/sort.data
