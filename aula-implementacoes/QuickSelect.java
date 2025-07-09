@@ -1,6 +1,6 @@
 public class QuickSelect {
     //Busca o k-ésimo menor elemento de um array sem precisar ordená-lo.
-    //Para buscar k-ésimo MAIOR elemento, basta 
+    //Para buscar k-ésimo MAIOR elemento, basta adicionar a linha "k = v.length - k;" abaixo.
     public static int quickSelect(int[] v, int k){
         return quickSelect(v, 0, v.length-1, k-1);
     }
