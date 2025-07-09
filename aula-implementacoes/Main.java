@@ -8,10 +8,10 @@ public class Main {
         //MergeSort merge = new MergeSort();
         //QuickSort quick = new QuickSort();
         //CountingSort count = new CountingSort();
-        RadixSort radix = new RadixSort();
-        int[] retorno = radix.radixSort(array);
-        for (int i : retorno) {
-            System.out.print(i + " ");
-        }
+        //RadixSort radix = new RadixSort();
+        //int[] retorno = radix.radixSort(array);  
+        QuickSelect qs = new QuickSelect();
+        int k = qs.quickSelect(array, 3);
+        System.out.println(k);
     }
 }
