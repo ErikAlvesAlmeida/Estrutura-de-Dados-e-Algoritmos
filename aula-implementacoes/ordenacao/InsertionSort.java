@@ -1,3 +1,4 @@
+package ordenacao;
 public class InsertionSort {
     public void sort(int[] v){
         for(int i = 1; i < v.length; i++){

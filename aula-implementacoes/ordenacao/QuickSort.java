@@ -1,3 +1,4 @@
+package ordenacao;
 public class QuickSort {
     public void sort(int[] v, int ini, int fim){        
         if(ini < fim){

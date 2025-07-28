@@ -1,3 +1,4 @@
+package busca;
 public class BinarySearch {
     public static int search(int[] v, int element, int ini, int fim){
 

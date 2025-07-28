@@ -1,3 +1,4 @@
+package ordenacao;
 public class CountingSort {
     public int[] classicCountingSort(int[] v, int k){
         int[] c = new int[k];

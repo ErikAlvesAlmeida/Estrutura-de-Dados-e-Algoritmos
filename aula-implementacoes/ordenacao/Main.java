@@ -1,3 +1,5 @@
+package ordenacao;
+
 public class Main {
     public static void main(String[] args) {
         int[] array = {802, 2, 24, 45, 66, 170, 75, 90};
